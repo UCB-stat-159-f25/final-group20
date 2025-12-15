@@ -1,5 +1,12 @@
 version: 1
 
+frontmatter:
+  title: "Global Disaster Response Analysis (2018–2024)"
+  authors:
+    - name: "Lois"
+    - name: "Eric"
+    - name: "Jisu"
+    - name: "Vania"
 
 project:
   title: "Global Disaster Response Analysis (2018–2024)"
@@ -24,3 +31,4 @@ project:
       output: pdf_builds/ml.pdf
       pages:
         - file: ml.ipynb
+
