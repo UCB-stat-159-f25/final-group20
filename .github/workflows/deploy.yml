@@ -43,7 +43,6 @@ jobs:
           activate-environment: final-group20 
           environment-file: environment.yml
           auto-activate-base: false
-          use-only-caches: true
       - name: Build HTML Assets
         run: myst build --html
       - name: Upload artifact
