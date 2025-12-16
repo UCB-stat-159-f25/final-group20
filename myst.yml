@@ -1,20 +1,22 @@
 version: 1
 
-frontmatter:
+site:
   title: "Global Disaster Response Analysis (2018–2024)"
-  authors:
+  nav:
+    - Home: main.ipynb
+    - EDA: eda.ipynb
+    - ML: ml.ipynb
+
+project:
+  type: website
+  output: _build/html
+  title: "Global Disaster Response Analysis (2018–2024)"
+  
+authors:
     - name: "Lois"
     - name: "Eric"
     - name: "Jisu"
     - name: "Vania"
-
-project:
-  title: "Global Disaster Response Analysis (2018–2024)"
-
-  toc:
-    - file: main.ipynb
-    - file: eda.ipynb
-    - file: ml.ipynb
 
   exports:
     - format: pdf
