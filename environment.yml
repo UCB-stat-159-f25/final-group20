@@ -1,0 +1,28 @@
+name: final-group20
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+
+  # Core DS stack
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+
+  # ML
+  - scikit-learn
+
+  # Jupyter + execution
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - nbconvert
+
+  # (optional but useful)
+  - pytest
+
+  # MyST (PDF/website build)
+  - pip:
+      - mystmd

@@ -1,0 +1,34 @@
+version: 1
+
+frontmatter:
+  title: "Global Disaster Response Analysis (2018–2024)"
+  authors:
+    - name: "Lois"
+    - name: "Eric"
+    - name: "Jisu"
+    - name: "Vania"
+
+project:
+  title: "Global Disaster Response Analysis (2018–2024)"
+
+  toc:
+    - file: main.ipynb
+    - file: eda.ipynb
+    - file: ml.ipynb
+
+  exports:
+    - format: pdf
+      output: pdf_builds/main.pdf
+      pages:
+        - file: main.ipynb
+
+    - format: pdf
+      output: pdf_builds/eda.pdf
+      pages:
+        - file: eda.ipynb
+
+    - format: pdf
+      output: pdf_builds/ml.pdf
+      pages:
+        - file: ml.ipynb
+
